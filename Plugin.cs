@@ -12,7 +12,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.Video;
 
-namespace CUResprite
+namespace CULastStandReplacer
 {
 	[BepInPlugin(MyGUID, PluginName, VersionString)]
     public class NoBellPlugin : BaseUnityPlugin
