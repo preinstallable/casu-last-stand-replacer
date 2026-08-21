@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+<PropertyGroup>
+	<TargetFramework>netstandard2.1</TargetFramework>
+	<Nullable>enable</Nullable>
+	<CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+	<GamePath>F:/SteamLibrary/steamapps/common/Casualties Unknown Demo</GamePath>
+</PropertyGroup>
+<ItemGroup>
+	<PackageReference Include="BepInEx.Core" Version="5.4.21" />
+	<Reference Include="Assembly-CSharp">
+		<HintPath>$(GamePath)/CasualtiesUnknown_Data/Managed/Assembly-CSharp.dll</HintPath>
+		<Private>False</Private>
+		<ExcludeAssets>runtime</ExcludeAssets>
+	</Reference>
+	<Reference Include="UnityEngine">
+		<HintPath>$(GamePath)/CasualtiesUnknown_Data/Managed/UnityEngine.dll</HintPath>
+		<Private>False</Private>
+		<ExcludeAssets>runtime</ExcludeAssets>
+	</Reference>
+	<Reference Include="UnityEngine.CoreModule">
+		<HintPath>$(GamePath)/CasualtiesUnknown_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+		<Private>False</Private>
+		<ExcludeAssets>runtime</ExcludeAssets>
+	</Reference>
+	<Reference Include="UnityEngine.ImageConversionModule">
+		<HintPath>$(GamePath)/CasualtiesUnknown_Data/Managed/UnityEngine.ImageConversionModule.dll</HintPath>
+		<Private>False</Private>
+		<ExcludeAssets>runtime</ExcludeAssets>
+	</Reference>
+	<Reference Include="UnityEngine.UI">
+		<HintPath>$(GamePath)/CasualtiesUnknown_Data/Managed/UnityEngine.UI.dll</HintPath>
+		<Private>False</Private>
+		<ExcludeAssets>runtime</ExcludeAssets>
+	</Reference>
+	<Reference Include="UnityEngine.UIModule">
+		<HintPath>$(GamePath)/CasualtiesUnknown_Data/Managed/UnityEngine.UIModule.dll</HintPath>
+		<Private>False</Private>
+		<ExcludeAssets>runtime</ExcludeAssets>
+	</Reference>
+	<Reference Include="Unity.TextMeshPro">
+		<HintPath>$(GamePath)/CasualtiesUnknown_Data/Managed/UnityEngine.AudioModule.dll</HintPath>
+		<Private>False</Private>
+		<ExcludeAssets>runtime</ExcludeAssets>
+	</Reference>
+	<Reference Include="Unity.TextMeshPro">
+		<HintPath>$(GamePath)/CasualtiesUnknown_Data/Managed/UnityEngine.VideoModule.dll</HintPath>
+		<Private>False</Private>
+		<ExcludeAssets>runtime</ExcludeAssets>
+	</Reference>
+</ItemGroup>
+
+</Project>
